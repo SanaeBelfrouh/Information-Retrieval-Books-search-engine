@@ -38,20 +38,49 @@ La création d'un moteur de recherche de livres en utilisant le contenu est un p
 ![image](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/95c027c9-0b16-4616-929a-177b61e7fc1b)
 
 ## USAGE
+Pour exécuter ce projet Django, vous pouvez suivre ces étapes :
 
-firstly, you need to
-ensure that you have django and Anaconda installed on your machine
+1. Installer Django : Assurez-vous d'avoir Django installé sur votre machine. Vous pouvez utiliser la commande suivante pour installer Django à l'aide de pip, en supposant que vous ayez déjà installé Python et pip :
+   ```
+   pip install django
+   ```
 
+2. Installer Anaconda : Si vous n'avez pas déjà installé Anaconda, rendez-vous sur le site web d'Anaconda (https://www.anaconda.com/products/individual) et téléchargez la version appropriée pour votre système d'exploitation. Suivez les instructions d'installation fournies.
 
-then, you need to run the django server
+3. Créer un environnement virtuel (facultatif) : Il est conseillé de créer un environnement virtuel pour votre projet Django afin d'isoler ses dépendances. Vous pouvez créer un environnement virtuel à l'aide d'Anaconda. Ouvrez un terminal ou une invite de commandes et exécutez la commande suivante :
+   ```
+   conda create --name myenv
+   ```
+   Remplacez `myenv` par le nom souhaité pour votre environnement virtuel.
 
-```python
-# run the django server
-python manage.py runserver
-```
+4. Activer l'environnement virtuel : Après avoir créé l'environnement virtuel, activez-le à l'aide de la commande suivante :
+   - Sur Windows :
+     ```
+     conda activate myenv
+     ```
+   - Sur macOS et Linux :
+     ```
+     source activate myenv
+     ```
 
-then, you can go to the browser and type the following url http://127.0.0.1:8000/
+5. Accéder au répertoire du projet : Utilisez la commande `cd` dans le terminal ou l'invite de commandes pour accéder au répertoire où se trouve votre projet Django. Par exemple :
+   ```
+   cd /chemin/vers/votre/projet
+   ```
 
+6. Exécuter les migrations : Django utilise des migrations pour gérer les changements de schéma de base de données. Appliquez toutes les migrations en attente pour créer ou mettre à jour le schéma de la base de données. Utilisez la commande suivante :
+   ```
+   python manage.py migrate
+   ```
+
+7. Démarrer le serveur de développement : Lancez le serveur de développement Django pour exécuter votre projet en local. Exécutez la commande suivante :
+   ```
+   python manage.py runserver
+   ```
+
+8. Accéder au projet : Ouvrez un navigateur web et rendez-vous à l'URL `http://127.0.0.1:8000/` (ou `http://localhost:8000/`). Vous devriez voir votre projet Django s'exécuter.
+
+Ces étapes supposent que vous disposez d'un dossier de projet Django configuré avec les fichiers et les configurations nécessaires. Si vous démarrez un nouveau projet Django, vous pouvez utiliser la commande `django-admin startproject` pour créer un nouveau modèle de projet.
 ## Demo
       
 ![Video_2023_05_26-2_edit_0_edit_0](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/68c28de2-90ae-4843-b76e-8fc09ebf642f)
