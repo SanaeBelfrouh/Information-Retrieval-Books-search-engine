@@ -1,6 +1,7 @@
 # Information-Retrieval-Books-search-engine
 
-## Presentation (`https://prezi.com/p/edit/nz0e1vstnvcz/`):
+## Presentation :
+
 
 ![image](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/b8826a5f-9414-4ae3-b80f-68733fe8c829)
 
@@ -34,8 +35,9 @@
 ![image](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/e6a76359-edbf-4fbc-b837-a44eaebec094)
 
 
-![image](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/95c027c9-0b16-4616-929a-177b61e7fc1b)
+![image](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/95c027c9-0b16-4616-929a-177b61e7fc1b
 
+ Vous pouvez trouver cette presentation sur : (`https://prezi.com/p/edit/nz0e1vstnvcz/`)
 ## USAGE
 Pour exécuter ce projet Django, vous pouvez suivre ces étapes :
 
