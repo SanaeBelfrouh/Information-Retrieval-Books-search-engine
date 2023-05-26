@@ -40,27 +40,8 @@ La création d'un moteur de recherche de livres en utilisant le contenu est un p
 ## USAGE
 
 firstly, you need to
-ensure that you have django and node installed on your machine
+ensure that you have django and Anaconda installed on your machine
 
-```bash
-# activate the virtual environment
-source venv/scripts/activate
-
-```
-
-```python
-# install requirements
-pip install -r requirements.txt
-
-```
-
-firstly, you need to run the server that will assist us to get the post associated to the document relevent to the query
-
-```bash
-# run the server
-cd playwright-server 
-node server.js
-```
 
 then, you need to run the django server
 
