@@ -1,0 +1,193 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("/static/images/background.jpg");
+    background-size: cover;
+    background-color: #fff;
+    animation: myAnim 5s ease 0s 1 normal forwards;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+form {
+    position: relative;
+    margin: 100px auto 0;
+    width: 500px;
+    text-align: center;
+    
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: "Cabin";
+}
+
+.border {
+  width: 150%;
+  height: 55px;
+  margin: 100px -18%;
+  padding: 7px;
+  background: #FDF6E3;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  border-bottom: 0px solid transparent;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  transition: all 0.15;
+  
+}
+.border:hover {
+  height: 58px;
+  margin-top: 97px;
+  border: 1px solid #1a7864;
+  border-bottom: 3px solid #1a7864;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.border:hover button {
+  opacity: 1;
+}
+.border:hover input {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2) inset;
+}
+.border:active {
+  border: 1px solid #1a7864;
+  margin-top: 102px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  height: 53px;
+}
+
+input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 84%;
+  height: 100%;
+  background: #fff;
+  color:#1a7864;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 -1px 1px rgba(255, 255, 255, 0.25), 0 1px 5px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  transition: all 0.25s;
+}
+input:focus {
+  outline: none;
+}
+input:focus + button {
+  opacity: 1;
+}
+
+button {
+  opacity: 0;
+  float: right;
+  width: 14%;
+  height: 100%;
+  margin: 0;
+  background: #C9BEAB;
+  text-align: center;
+  font-size: 2em;
+  color: #FDF6E3;
+  cursor: pointer;
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+button:active {
+  border-bottom: 0;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+.book {
+    border: 1px solid #a3750a;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(33.33% - 20px);
+    max-width: 250px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.book h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.book p {
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.description-container {
+    display: none;
+}
+
+.description-button {
+  margin: 10px;
+  background-color: #222;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@keyframes myAnim {
+    0% {
+        background-position: center top;
+        background-size: 100%;
+    }
+
+    100% {
+        background-position: center top;
+        background-size: 150%;
+    }
+}

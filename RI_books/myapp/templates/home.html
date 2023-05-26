@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📖 SFBooks</h1>
+        <p>Welcome to Search & Find Books. Discovery starts here! Enter a title, keyword, or book description today to start exploring and finding amazing books.</p>
+        <form action="{% url 'search' %}" method="get">
+            <button type="submit">Get started</button>
+        </form>
+    </div>
+</body>
+</html>

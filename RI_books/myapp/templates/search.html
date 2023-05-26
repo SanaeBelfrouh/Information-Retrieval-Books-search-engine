@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style2.css">
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <div class='border'>
+            <input placeholder='Enter a title, keyword, or book description' type="text" name="query">
+            <button type="submit">
+                <i class='icon-search'></i> Search
+            </button>
+        </div>
+    </form>
+    
+    {% if results %}
+    <div class="books-container">
+        {% for image_url, title, author, desc in results %}
+        <div class="book">
+            <img src="{{ image_url }}" alt="{{ title }}">
+            <h3>{{ title }}</h3>
+            <p>by {{ author }}</p>
+            <button class="description-button">⏬</button>
+            <div class="description-container">
+                <p>{{ desc }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <script>
+        const buttons = document.querySelectorAll('.description-button');
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const descriptionContainer = button.nextElementSibling;
+                descriptionContainer.style.display = 'block';
+            });
+        });
+        
+    </script>
+</body>
+</html>

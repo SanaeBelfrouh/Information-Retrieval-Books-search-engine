@@ -1,0 +1,52 @@
+body {
+  background-image: url("/static/images/book.jpg");
+  background-size: cover;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #f4eeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: myAnim 5s ease 0s 1 normal forwards;
+  }
+.container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+    
+h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #050505;
+    }
+    
+button {
+    width: 150px;
+    margin: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #0f0e0e;
+    border-radius: 4px;
+    background: transparent;
+    color: #040404;
+    cursor: pointer;
+    }
+    
+button:hover {
+    background: #050505;
+    color: #fdf6f6;
+    transition: 0.5s;
+    }
+@keyframes myAnim {
+      0% {
+        background-position: center top;
+        background-size: 100%;
+      }
+    
+      100% {
+        background-position: center top;
+        background-size: 150%;  
+      }
+    }  
