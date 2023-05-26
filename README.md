@@ -31,10 +31,46 @@ La création d'un moteur de recherche de livres en utilisant le contenu est un p
 ![image](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/026b6e3d-1e5e-408a-9da3-3ac6a0a3144a)
 
 ![image](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/c8ae7261-2e69-41f2-a383-61a79728fc0b)
-           
-![Video_2023_05_26-2_edit_0_edit_0](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/68c28de2-90ae-4843-b76e-8fc09ebf642f)
-
+     
 ![image](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/e6a76359-edbf-4fbc-b837-a44eaebec094)
 
 
 ![image](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/95c027c9-0b16-4616-929a-177b61e7fc1b)
+
+## USAGE
+
+firstly, you need to
+ensure that you have django and node installed on your machine
+
+```bash
+# activate the virtual environment
+source venv/scripts/activate
+
+```
+
+```python
+# install requirements
+pip install -r requirements.txt
+
+```
+
+firstly, you need to run the server that will assist us to get the post associated to the document relevent to the query
+
+```bash
+# run the server
+cd playwright-server 
+node server.js
+```
+
+then, you need to run the django server
+
+```python
+# run the django server
+python manage.py runserver
+```
+
+then, you can go to the browser and type the following url http://127.0.0.1:8000/
+
+## Demo
+      
+![Video_2023_05_26-2_edit_0_edit_0](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/68c28de2-90ae-4843-b76e-8fc09ebf642f)
