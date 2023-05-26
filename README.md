@@ -1,7 +1,6 @@
 # Information-Retrieval-Books-search-engine
-La création d'un moteur de recherche de livres en utilisant le contenu est un projet qui demande une grande réflexion et une expertise en traitement de données.
 
-
+## Presentation (`https://prezi.com/p/edit/nz0e1vstnvcz/`):
 
 ![image](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/b8826a5f-9414-4ae3-b80f-68733fe8c829)
 
