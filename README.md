@@ -85,3 +85,10 @@ Pour exécuter ce projet Django, vous pouvez suivre ces étapes :
 ## Demo
       
 ![Video_2023_05_26-2_edit_0_edit_0](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/68c28de2-90ae-4843-b76e-8fc09ebf642f)
+
+## Resources utilisées:
+#### originale dataset: https://www.kaggle.com/datasets/thedevastator/comprehensive-overview-of-52478-goodreads-best-b?resource=download
+Manning, C. D., Raghavan, P., & Schütze, H. (2008). Introduction to Information Retrieval. Cambridge University Press.
+
+Manning, C. D., Raghavan, P., & Schütze, H. (2020). Natural Language Processing (NLP) with Python: Analyzing Text with the Natural Language Toolkit. O'Reilly Media.
+
