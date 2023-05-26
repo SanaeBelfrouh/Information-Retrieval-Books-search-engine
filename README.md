@@ -78,9 +78,9 @@ Pour exécuter ce projet Django, vous pouvez suivre ces étapes :
    python manage.py runserver
    ```
 
-8. Accéder au projet : Ouvrez un navigateur web et rendez-vous à l'URL `http://127.0.0.1:8000/` (ou `http://localhost:8000/`). Vous devriez voir votre projet Django s'exécuter.
+8. Accéder au projet : Ouvrez un navigateur web et rendez-vous à l'URL `http://127.0.0.1:8000/` . Vous devriez voir votre projet Django s'exécuter.
 
-Ces étapes supposent que vous disposez d'un dossier de projet Django configuré avec les fichiers et les configurations nécessaires. Si vous démarrez un nouveau projet Django, vous pouvez utiliser la commande `django-admin startproject` pour créer un nouveau modèle de projet.
+
 ## Demo
       
 ![Video_2023_05_26-2_edit_0_edit_0](https://github.com/SanaeBelfrouh/Information-Retrieval-Books-search-engine/assets/116807307/68c28de2-90ae-4843-b76e-8fc09ebf642f)
